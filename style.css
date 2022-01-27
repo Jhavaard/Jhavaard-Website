@@ -233,16 +233,52 @@ p{
     justify-content: center;
   }
 
-  .image {
+.image {
     height: 60vh;
     width: 45vh;
     border-radius: 5%;
-  }
+}
 
-  .about_jhavaard p {
+.about_jhavaard p {
       margin-left: -60px;
       width: 71vh;
       text-align: left;
-      font-size: 20px;
+      font-size: 16px;
       font-family: arial;
-  }
+}
+
+  /*----Projects-------------*/
+
+.cprojects {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.cprojects h1{
+    margin-bottom: 3%;
+}
+
+.cprojects-col {
+    flex-basis: 35%;
+    border-radius: 10px;
+    margin-left: 2%;
+    margin-bottom: 5%;
+    text-align: left;
+}
+
+.cprojects-col img{
+    width: 28vw;
+    border-radius: 10px;
+}
+
+.cprojects-col p{
+    padding: 0;
+}
+
+.cprojects-col h3{
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: left;
+}
