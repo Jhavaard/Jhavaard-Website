@@ -24,12 +24,12 @@
             <i class="fa fa-bars" onclick="showMenu()"></i>
         </nav>
 
-    <div class="text-box">
+    <div class="text-box" id="clickButton">
         <h1>Welcome to Jhavaard's Website</h1>
         <p>This is Jhavaard's Website, designed 
            using HTML, CSS and JavaScript.
         </p>
-        <a class="visit-btn">Click here to Know More</a>
+        <a class="visit-btn" onclick="nextPage()">Click here to Know More</a>
     </div>
     </section>
 
@@ -37,6 +37,7 @@
 <script>
 
     var navLinks = document.getElementById("navLinks");
+    var clickButton = document.getElementById("clickButton");
 
     function showMenu(){
         navLinks.style.right = "0";
@@ -46,6 +47,9 @@
         navLinks.style.right = "-200px";
     }
 
+    function nextPage(){
+        document.location.href = "about.html"
+    }
 </script>
 
 </body>
