@@ -73,11 +73,11 @@
         </div>
 
         <div class="block">
-            <form action="">
-                <input type="text" placeholder="Enter your name" required>
-                <input type="text" placeholder="Enter your email address" required>
-                <input type="text" placeholder="Enter your subject" required>
-                <textarea rows="8" placeholder="Message" required></textarea>
+            <form action="email.php" method="post">
+                <input type="text" name="name" placeholder="Enter your name" required>
+                <input type="text" name="email" placeholder="Enter your email address" required>
+                <input type="text" name="subject" placeholder="Enter your subject" required>
+                <textarea rows="8" name="message" placeholder="Message" required></textarea>
                 <button type="submit" class="cust-btn">Send Message</button>
             </form>
         </div>
