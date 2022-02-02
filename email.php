@@ -4,7 +4,7 @@ $vistor_email = $_POST['email'];
 $subject = $_POST['subject'];
 $messgae = $_POST['messgae'];
 
-$email_from = 'http://formspree.io/jhavaard@gmail.com'
+$email_from = 'http://formspree.io/someone@gmail.com'
 
 $email_subject = 'New Form Submission';
 
@@ -13,7 +13,7 @@ $email_body = "User Name: $name.\n".
                   "Subject: $subject.\n". 
                     "User Messgae: $messgae .\n";
 
-$to = "jhavaard@gmail.com";
+$to = "someone@gmail.com";
 
 $headers = "From: $email_from \r\n";
 
