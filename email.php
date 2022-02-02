@@ -4,7 +4,7 @@ $vistor_email = $_POST['email'];
 $subject = $_POST['subject'];
 $messgae = $_POST['messgae'];
 
-$email_from = 'https://jhavaard.github.io/Jhavaard-Websit'
+$email_from = 'http://formspree.io/jhavaard@gmail.com'
 
 $email_subject = 'New Form Submission';
 
